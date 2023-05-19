@@ -9,7 +9,7 @@ public class Main {
         EngUI.MainUI();
         //Creating an Object
 
-        Energy Object = new Energy();
+        Energy Object = new Energgy();
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please choose an operation:");
