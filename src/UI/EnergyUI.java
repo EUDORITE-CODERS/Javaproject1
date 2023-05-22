@@ -8,7 +8,11 @@ import PHYSICS.Energy;
 public class EnergyUI {
     JFrame frame = new JFrame("PhysicsUI Calc");
     JButton potentialEnergyBtn = new JButton("Potential Energy");
-
+    JButton kineticEnergyBtn = new JButton("Kinetic Energy");
+    JButton ForceBtn = new JButton("Force");
+    JButton powerBtn = new JButton("Power");
+    JButton WorkDoneBtn = new JButton("WorkDone");
+    
     public void MainUI() {
         potentialEnergyBtn.addActionListener(new ActionListener() {
             @Override
